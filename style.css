@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+#sidebar{
+padding:0;
+border-radius: 200px;
+width: 200px;
+}
+
+#sidebar img{
+width:250px;
+height:250px;
+border-radius: 200px;
+}
+
+#sidebar:hover #main{
+opacity:0.8;
+background-color:#000;
+border-radius: 200px;
+}
+
+#main{
+position:fixed;
+margin-left:-1px;
+margin-top:-1px;
+width:250px;
+height:250px;
+color:#FFFFFF;
+font-size:44px;
+opacity:0;
+text-align:center;
+border-radius:200px !important;
+z-index:999;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+#main a{
+/*stili link*/
+display:block;
+margin-left:40px;
+width:150px;
+margin-top:80px;
+margin-bottom:-70px;
+padding:3px 15px 3px 5px;
+border-radius:50px;
+background-color:#ad569f;
+/*stili testo*/
+color:#000;
+font: 9px consolas;
+text-transform:uppercase;
+text-decoration:none;
+/*stili transizione*/
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+#main a:hover{
+background-color:#1793a7;
+opacity:1;
+}
